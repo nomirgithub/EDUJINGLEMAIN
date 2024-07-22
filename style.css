@@ -65,7 +65,7 @@ h1 {
     width: 100px;
     height: 15=00px;
     border-radius: 50%;
-    
+    z-index: 1;
 }
  #header .iconDiv {
     width: 60px;
@@ -101,8 +101,8 @@ h1 {
     position: absolute;
     box-shadow: 0 0 10px;
     display: none;
-    right: -1.5px;
-    top: 7px;
+    right: -8px;
+    top: 30px;
 
  }
 
@@ -132,6 +132,9 @@ h1 {
  #header .container .menuDiv:hover ul {
     display: block;
  }
+
+ #header .container .menuDiv ul li:hover {
+    padding-left: 45px;}
 
  /* end header */
 
@@ -180,6 +183,7 @@ h1 {
 #landingDiv .container .centerDiv {
     text-align: center;
     z-index: 1;
+    position: relative;
 }
 
 #landingDiv::before {

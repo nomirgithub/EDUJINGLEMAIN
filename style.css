@@ -11,7 +11,8 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    
+    height: 1000vh;
+    background-color: rgb(7, 7, 34);
 }
 
 h1 {
@@ -141,7 +142,7 @@ h1 {
 /*start landing*/
 
 #landingDiv {
-    background-image: url(images/fui3dc.png);
+    background-image: url(images/Purple\ Colorful\ Illustrated\ Hello\ Designer\ Home\ Blog\ Banner.png);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -155,9 +156,10 @@ h1 {
     height: 100vh;
 }
 #landingDiv .container .centerDiv h1 {
-   font-size: 80px;
+   font-size: 70px;
    color: white;
    font-family:'Times New Roman', Times, serif;
+   
 }
 
 
@@ -192,7 +194,7 @@ h1 {
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 

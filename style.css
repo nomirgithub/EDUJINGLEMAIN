@@ -1,0 +1,195 @@
+html {
+    --main-color: #762c2c;
+    --secondary-color: rgba(212, 126, 145, 0.559);
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* start */
+
+#header {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .container img {
+    width: 100px;
+    height: 15=00px;
+    border-radius: 50%;
+    
+}
+ #header .iconDiv {
+    width: 60px;
+    direction: rtl;
+
+ }
+
+ #header .menuLine{
+    height: 1.7px;
+    background-color: white;
+    margin-bottom: 5px;
+ }
+
+ #header #centerLine {
+    width: 50%;
+    transition: 0.3s;
+ }
+
+ #header .menuDiv:hover #centerLine {
+    width: 100%;
+ }
+
+ #header .container .menuDiv {
+    position: relative;
+ }
+ 
+ #header .container .menuDiv ul {
+    background-color: white;
+    list-style: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    position: absolute;
+    box-shadow: 0 0 10px;
+    display: none;
+    right: -1.5px;
+    top: 7px;
+
+ }
+
+ #header .container .menuDiv ul .divider {
+    background-color: rgb(151, 150, 150);
+    height: 0.5px;
+ }
+
+ #header .container .menuDiv ul li {
+    text-align: center;
+    padding: 10px 35px;
+    color: var(--main-color);
+    transition: 0.3s;
+ }
+
+ #header .container .menuDiv ul::before{
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent white transparent;
+    top: -20px;
+    right: 25px;
+
+ }
+ #header .container .menuDiv:hover ul {
+    display: block;
+ }
+
+ /* end header */
+
+/*start landing*/
+
+#landingDiv {
+    background-image: url(images/fui3dc.png);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#landingDiv .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#landingDiv .container .centerDiv h1 {
+   font-size: 80px;
+   color: white;
+   font-family:'Times New Roman', Times, serif;
+}
+
+
+#landingDiv .container .centerDiv p {
+    font-size: 25px;
+    color: rgb(241, 229, 229);
+    margin: 40px 0;
+}
+
+#landingDiv .container .centerDiv button{
+    padding: 20px 40px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    border: none;
+}
+#landingDiv .container .centerDiv button:hover{
+    cursor: pointer;
+    background-color: rgba(231, 141, 156, 0.934);
+}
+
+#landingDiv .container .centerDiv {
+    text-align: center;
+    z-index: 1;
+}
+
+#landingDiv::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+}
+
+
+/*end landing*/

@@ -1,5 +1,5 @@
 html {
-    --main-color: #762c2c;
+    --main-color: #230909;
     --secondary-color: rgba(212, 126, 145, 0.559);
 }
 
@@ -94,17 +94,18 @@ h1 {
  }
  
  #header .container .menuDiv ul {
-    background-color: white;
+    background-color: rgb(250, 245, 245);
     list-style: none;
     font-size: 20px;
     border-radius: 20px;
     padding: 5px 20px;
-    position: absolute;
+    position:absolute;
     box-shadow: 0 0 10px;
     display: none;
     right: -8px;
     top: 30px;
-    z-index: 1;
+    
+   
  }
 
  #header .container .menuDiv ul .divider {
@@ -117,6 +118,8 @@ h1 {
     padding: 10px 35px;
     color: var(--main-color);
     transition: 0.3s;
+   position: relative;
+   z-index: 1;
  }
 
  #header .container .menuDiv ul::before{
@@ -137,12 +140,14 @@ h1 {
  #header .container .menuDiv ul li:hover {
     padding-left: 45px;}
 
+      
+
  /* end header */
 
 /*start landing*/
 
 #landingDiv {
-    background-image: url(images/Purple\ Colorful\ Illustrated\ Hello\ Designer\ Home\ Blog\ Banner.png);
+    background-image: url(images/power.png);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -194,7 +199,7 @@ h1 {
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.8;
+    opacity: 0.2;
 }
 
 

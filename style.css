@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     height: 1000vh;
-    background-color: rgb(7, 7, 34);
+    background-color: rgb(16, 3, 32);
 }
 
 h1 {
@@ -147,7 +147,7 @@ h1 {
 /*start landing*/
 
 #landingDiv {
-    background-image: url(images/power.png);
+    background-image: url(images/background.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;

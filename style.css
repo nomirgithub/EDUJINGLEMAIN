@@ -11,17 +11,17 @@ html {
 *{
     box-sizing:border-box;
     margin: 0;
+    padding: 0;
 }
 
-body {
+html ,body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    height: 100vh;
-    background : linear-gradient( rgb(26, 3, 21), #791d5e, #210229);
+    background : linear-gradient( rgb(3, 8, 26), #3b056bf7, #0e0228);
+    height: 100%;
+    width: 100%;
+    padding: 0;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 
@@ -166,6 +166,8 @@ h1 {
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
+
 }
 
 @media (max-width: 1106px) {
@@ -227,4 +229,13 @@ h1 {
 
 #quantum {
     
+    position: fixed; /* Keep it fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 9999; /* Ensure it's on top */
 }

@@ -161,7 +161,7 @@ h1 {
 /*start landing*/
 
 #landingDiv {
-    background-image: url(images/fui3dc.png);
+    background-image: url(images/fuip3d.png);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ h1 {
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 

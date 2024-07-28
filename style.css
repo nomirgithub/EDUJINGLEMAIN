@@ -230,7 +230,7 @@ h1 {
 
 @media (max-width: 1106px) {
     #landingDiv::before {
-       opacity: 0.1;
+       opacity: 0.2;
         
     }
 

@@ -9,7 +9,7 @@ function Preloader() {
     setTimeout(() => {
         Preloader.style.display = 'none';
         mainDiv.style.display = 'block';
-    }, 1000);
+    }, 10);
 }
 
 window.addEventListener('load', Preloader);

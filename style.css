@@ -6,6 +6,7 @@
 html {
     --main-color: #230909;
     --secondary-color: rgba(212, 126, 145, 0.559);
+    height: 1000vh;
 }
 
 *{
@@ -17,7 +18,7 @@ html {
 html ,body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background : linear-gradient( rgb(3, 8, 26), #3b056bf7, #0e0228);
+    background : linear-gradient( #190019, #2B124C, #522B5B, #854F6C, #DFB6B2);
     height: 100%;
     width: 100%;
     padding: 0;
@@ -106,13 +107,14 @@ h1 {
  }
  
  #header .container .menuDiv ul {
+    width: 200px;
     background-color: rgb(250, 245, 245);
     list-style: none;
     font-size: 20px;
     border-radius: 20px;
     padding: 5px 20px;
     position:absolute;
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 10px grey;
     display: none;
     right: -8px;
     top: 30px;
@@ -161,7 +163,7 @@ h1 {
 /*start landing*/
 
 #landingDiv {
-    background-image: url(images/fuip3d.png);
+    background-image: url(images/lailalandinf.png);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -173,7 +175,9 @@ h1 {
 @media (max-width: 1106px) {
     #landingDiv {
         background-image: url(images/power.png);
+        
     }
+
     }
 
 #landingDiv .container {
@@ -221,9 +225,16 @@ h1 {
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
+@media (max-width: 1106px) {
+    #landingDiv::before {
+       opacity: 0.1;
+        
+    }
+
+    }
 
 /*end landing*/
 
@@ -239,3 +250,58 @@ h1 {
     align-items: center; /* Center vertically */
     z-index: 9999; /* Ensure it's on top */
 }
+
+/*start services*/
+
+#servicesDiv {
+    padding: 100px 0;
+    background : linear-gradient( #190019, #2B124C, #522B5B, #854F6C, #DFB6B2);
+    
+}
+#servicesDiv .container .service img {
+    height: 150px;
+}
+#servicesDiv .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#servicesDiv .container .service {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+#servicesDiv .container .service h3 {
+    font-size: 35px;
+    margin: 20px 0;
+    color: rgb(20, 0, 10);
+    text-shadow: 0 4px 4px #e5dee2;
+    font-family: fantasy;
+    font-weight: 400;
+}
+
+@media (max-width: 680px) {
+    #servicesDiv .container .service {
+        margin-bottom: 50px;
+    }
+}
+
+#servicesDiv .container .service p {
+    font-size: 25px;
+    color: #e5e2e4;
+    font-weight: 300;
+}
+
+
+/*end services*/
+
+/* Start storiess*/
+
+#storiesDiv {
+    height: 100vh;
+}
+
+/* End storiess*/

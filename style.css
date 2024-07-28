@@ -280,7 +280,7 @@ h1 {
     color: rgb(20, 0, 10);
     text-shadow: 0 4px 4px #e5dee2;
     font-family: fantasy;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 @media (max-width: 680px) {
@@ -292,7 +292,7 @@ h1 {
 #servicesDiv .container .service p {
     font-size: 25px;
     color: #e5e2e4;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 

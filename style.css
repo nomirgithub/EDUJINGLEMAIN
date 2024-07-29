@@ -2,6 +2,13 @@
     display: none;
 }
 
+.specialHeading {
+    font-size: 60px;
+    font-weight: 900;
+    color: #5e364b;
+    text-shadow: 0 10px 10px #854F6C;
+    letter-spacing: -1px;
+}
 
 html {
     --main-color: #230909;
@@ -66,7 +73,8 @@ h1 {
     right: 0;
     left: 0;
     z-index: 1;
-   
+   background-color: #0d001031;
+ 
 }
 
 #header .container {
@@ -188,9 +196,12 @@ h1 {
 }
 #landingDiv .container .centerDiv h1 {
    font-size: 70px;
-   color: white;
+   color: rgb(248, 243, 243);
    font-family:'Times New Roman', Times, serif;
    position: relative;
+   text-shadow: 0 9px 9px #1b1a1b;
+   font-weight: 900;
+
 }
 
 
@@ -198,6 +209,7 @@ h1 {
     font-size: 25px;
     color: rgb(241, 229, 229);
     margin: 40px 0;
+    font-weight: 600;
 }
 
 #landingDiv .container .centerDiv button{
@@ -211,6 +223,7 @@ h1 {
 #landingDiv .container .centerDiv button:hover{
     cursor: pointer;
     background-color: rgba(231, 141, 156, 0.934);
+    
 }
 
 #landingDiv .container .centerDiv {
@@ -259,7 +272,7 @@ h1 {
     
 }
 #servicesDiv .container .service img {
-    height: 150px;
+    height: 200px;
 }
 #servicesDiv .container {
     display: flex;
@@ -277,10 +290,11 @@ h1 {
 #servicesDiv .container .service h3 {
     font-size: 35px;
     margin: 20px 0;
-    color: rgb(20, 0, 10);
-    text-shadow: 0 4px 4px #e5dee2;
+    color: rgb(246, 240, 244);
+    text-shadow: 0 5px 5px #101014;
     font-family: fantasy;
-    font-weight: 900;
+    font-weight: 800;
+    letter-spacing: 4px;
 }
 
 @media (max-width: 680px) {
@@ -293,6 +307,7 @@ h1 {
     font-size: 25px;
     color: #e5e2e4;
     font-weight: 500;
+    
 }
 
 
@@ -301,7 +316,99 @@ h1 {
 /* Start storiess*/
 
 #storiesDiv {
-    height: 100vh;
+    padding: 100px 0;
+    background : linear-gradient( #DFB6B2, #854F6C, #522B5B, #2B124C, #190019);
+
 }
+
+#storiesDiv .container {
+    text-align: center;
+}
+
+#storiesDiv .container > p {
+    font-size:30px ;
+    font-weight: 550;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#storiesDiv .container .content .cards .card {
+    width: 230px;
+    box-shadow: 0 0 10px #0d0101 ;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#storiesDiv .container .content .cards .card .cardImg {
+    padding: 10px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+#storiesDiv .container .content .cards .card .cardImg img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+#storiesDiv  .container .content {
+    display: flex;
+}
+
+#storiesDiv .container .content .cards{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+#storiesDiv .cardDetails {
+    background-color: #ffffffaa;
+}
+
+#storiesDiv .cardDetails p {
+    margin: 10px 0;
+    color: rgb(27, 24, 24);
+}
+
+#storiesDiv .imgDiv{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 70vh;
+}
+
+#storiesDiv .imgDiv img {
+    width: 320px;
+    position: relative;
+    
+}
+
+@media ( max-width: 1200px) {
+    #storiesDiv .imgDiv {
+        display: none;
+    }
+}
+
+@media (max-width: 579px) {
+    #storiesDiv .cards .card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    #storiesDiv .container > p {
+        font-size: 25px;
+    }
+}
+
+#storiesDiv .container .imgDiv::before {
+    content: "";
+    width: 100px;
+    height: 60%;
+    background-color: #2B124C;
+    position: absolute;
+    right: 30px;
+    top: 20%;
+    
+}
+
 
 /* End storiess*/

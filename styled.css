@@ -1,0 +1,50 @@
+#divOne {
+    background-image: linear-gradient(rgb(10, 10, 90), rgb(2, 5, 26));
+    padding: 50px 20px;
+    }
+    
+    body {
+        background-color: black;
+        color: white;
+    }
+    
+    img {
+        width: 90%;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 50px;
+        height: 40vh ;
+        border: 10px rgb(165, 186, 174);
+        border-radius: 20px;
+    }
+    
+    #centerDiv {
+        padding: 20px;
+    }
+    
+    #centerDiv p, ul {
+        font-size: 24px;
+    
+    }
+    #centerDiv h1 {
+        font-size: 50px;
+    }
+    #bottomDiv {
+        padding: 20px;
+        text-align: center;
+        background-image: linear-gradient(rgb(18, 13, 13), rgb(10, 10, 90)
+        );
+        color: white;
+        font-family: fantasy;
+    }
+    
+    #bottimDiv button {
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
+    #bottomDiv a {
+        font-size: 24px;
+        color: white;
+    }

@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(45, 2, 24), rgb(141, 21, 85), rgb(16, 1, 12));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.profile-title, .profile-email, .profile-location {
+    margin: 5px 0;
+    color: #666;
+    
+}
+.profile-email a {
+    text-decoration: none;
+    color:#666;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.follow-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.message-btn {
+    background-color: #e6f0ff;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+}
+
+.message-btn img {
+    margin-right: 5px;
+}
+
+.message-btn a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.profile-hire {
+    text-align:justify;
+    align-items: startS;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.712);
+    border-radius: 6px;
+    padding-left: 10px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-weight: 20;
+}
+
+.profile-hire h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.hire-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hire-option img {
+    margin-right: 10px;
+}
+
+.hire-option p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.hire-option .arrow {
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.hire-option:hover {
+    background-color: #f0f0f0;
+}
+
+.follow-btn {
+    background-color: rgb(6, 2, 70);
+    color: rgb(247, 235, 235);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.follow-btn a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-weight: bold;
+}
+
+.follow-btn:hover {
+    background-color: rgb(12, 5, 37);
+}

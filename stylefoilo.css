@@ -1,0 +1,153 @@
+body {
+    background: linear-gradient(rgb(45, 2, 24), rgb(141, 21, 85), rgb(16, 1, 12));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200vh;
+}
+
+
+
+
+#divOne {
+    color: rgb(253, 251, 251);
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient( rgb(94, 10, 54), rgba(23, 21, 21, 0));
+    text-align: center;
+    border-style: ridge;
+    border-radius: 50px;
+    height: 700px;
+    text-decoration: wavy;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-color: rgba(255, 255, 255, 0.945);
+    height: 130vh;
+}
+#picOne {
+    border-radius: 500px;
+    width: 50%;
+    max-width: 200px;
+    
+
+}
+
+#eG {
+    font-family: fantasy;
+    text-shadow: 0 10px 30px rgb(232, 223, 223);
+    color: rgb(35, 3, 3);
+}
+#lA {
+    font-style: italic;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    size: 40px;
+
+}
+#locA {
+    size: 25px;
+    color: rgb(210, 186, 32);
+}
+
+
+#pR {
+    margin-right: 20px;
+    margin-left: 20px;
+    size: 22px;
+}
+#cO {
+    color: rgb(210, 186, 32);
+    
+}
+
+
+
+#fA {
+    color: rgb(246, 244, 244);
+}
+#Wa {
+    color: rgb(229, 226, 226);
+}
+
+    
+
+.btn-primary {
+    background-color: rgb(6, 2, 70);
+    color: rgb(247, 235, 235);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(12, 5, 37);
+}
+
+.btn-success{
+    background-color: rgb(5, 44, 54);
+    color: rgb(247, 235, 235);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-success a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: rgb(5, 40, 49);
+}
+
+#bU {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.email-button {
+    background-color: #b67496;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.email-button img {
+    margin-right: 10px;
+    
+}
+
+.email-button a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-weight: bold;
+}
+
+.email-button:hover {
+    background-color: #99536e;
+}
+
+.proGal {
+    text-decoration: none;
+    color: #e0e2e5;
+}

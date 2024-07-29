@@ -325,6 +325,8 @@ h1 {
     text-align: center;
 }
 
+
+
 #storiesDiv .container > p {
     font-size:30px ;
     font-weight: 550;
@@ -366,6 +368,13 @@ h1 {
 #storiesDiv .cardDetails p {
     margin: 10px 0;
     color: rgb(27, 24, 24);
+
+}
+
+#storiesDiv .cards a {
+    margin: 10px 0;
+    color: rgb(27, 24, 24);
+    text-decoration: none;
 }
 
 #storiesDiv .imgDiv{

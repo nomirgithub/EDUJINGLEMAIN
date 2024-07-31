@@ -11,7 +11,7 @@
 }
 
 html {
-    --main-color: #230909;
+    --main-color:rgba(236, 78, 104, 0.934) ;
     --secondary-color: rgba(212, 126, 145, 0.559);
     height: 1000vh;
 }
@@ -73,7 +73,7 @@ h1 {
     right: 0;
     left: 0;
     z-index: 1;
-   background-color: #0d001031;
+   
  
 }
 
@@ -93,6 +93,7 @@ h1 {
     width: 60px;
     direction: rtl;
     
+    
  }
 
  #header .menuLine{
@@ -100,6 +101,13 @@ h1 {
     background-color: white;
     margin-bottom: 5px;
  }
+
+ @media (max-width: 1106px) {
+    #header .menuLine {
+        background-color: var(--main-color);
+    }
+   
+    }
 
  #header #centerLine {
     width: 50%;
@@ -138,7 +146,7 @@ h1 {
  #header .container .menuDiv ul li {
     text-align: center;
     padding: 10px 35px;
-    color: var(--main-color);
+    color: rgb(57, 7, 7);
     transition: 0.3s;
    position: relative;
    z-index: 1;
@@ -185,7 +193,7 @@ h1 {
         background-image: url(images/power.png);
         
     }
-
+   
     }
 
 #landingDiv .container {
@@ -214,15 +222,25 @@ h1 {
 
 #landingDiv .container .centerDiv button{
     padding: 20px 40px;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) ;
     border-radius: 20px;
     font-weight: 900;
     color: white;
     border: none;
 }
+
+@media (max-width: 1106px) {
+    #landingDiv {
+        background-image: url(images/power.png);
+        
+    }
+    #landingDiv .container .centerDiv button{
+        background-color: var(--main-color);
+    }
+    }
 #landingDiv .container .centerDiv button:hover{
     cursor: pointer;
-    background-color: rgba(231, 141, 156, 0.934);
+    background-color: rgba(171, 92, 146, 0.559);
     
 }
 
@@ -243,7 +261,7 @@ h1 {
 
 @media (max-width: 1106px) {
     #landingDiv::before {
-       opacity: 0.2;
+       opacity: 0.1;
         
     }
 

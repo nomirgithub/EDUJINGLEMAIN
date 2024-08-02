@@ -76,9 +76,7 @@ function reddish() {
                         i2.style.backgroundColor = 'rgb(100, 75, 43)'
                     }
 
-                    // if (pinkColor == greenColor) {
-                    //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
-                    // }
+                    
                 }
             })
         }
@@ -104,7 +102,7 @@ document.querySelectorAll('.box').forEach(item => {
 
     item.addEventListener('click', function () {
 
-        // To delete the opposite element
+        
 
         if (item.style.backgroundColor == 'green' && item.innerText.length == 0) {
             tog = tog + 1
@@ -142,7 +140,7 @@ document.querySelectorAll('.box').forEach(item => {
 
 
 
-        // Function to display the available paths for all pieces
+        
 
         function whosTurn(toggle) {
 
@@ -172,19 +170,7 @@ document.querySelectorAll('.box').forEach(item => {
                         document.getElementById(`b${a + 100 - 1}`).style.backgroundColor = 'green'
 
                     }
-                    // if (aup == 800) {
-                    //     document.getElementById(`b${a}`).innerText = 'Wqueen'
-                    //     coloring()
-                    //     insertImage()
-                    // }
-                    // if (aside < 8 && document.getElementById(`b${a + 100 + 1}`).innerText.length == 0 && document.getElementById(`b${a + 100}`).innerText.length == 0) {
-                    //     document.getElementById(`b${a + 100}`).style.backgroundColor = 'green'
-                    // }
-
-                    // if (aside > 1 && document.getElementById(`b${a + 100 - 1}`).innerText.length == 0 && document.getElementById(`b${a + 100}`).innerText.length == 0) {
-                    //     document.getElementById(`b${a + 100}`).style.backgroundColor = 'green'
-
-                    // }
+                   
                 }
 
                 if (tog % 2 == 0 && aup > 100) {

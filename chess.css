@@ -6,7 +6,7 @@ body {
 display: grid;
 place-items: center;
 overflow-x: hidden;
-background : linear-gradient( #020353, #110231);
+background : linear-gradient( #020353, #110231, rgb(11, 11, 80));
 
 }
 h1 {
@@ -64,7 +64,27 @@ li {
         width: 11vw;
     }
     .allimg {
-        width: 7vw;
+        width: 40px;
+        
        
     }
+}
+.follow-btn {
+    background-color: rgb(10, 4, 37);
+    color: rgb(247, 235, 235);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 90px;
+
+}
+.follow-btn a {
+    text-decoration: none;
+    color: #a09e1f;
+    font-weight: bold;
+}
+.follow-btn:hover {
+    background-color: rgb(9, 6, 19);
 }

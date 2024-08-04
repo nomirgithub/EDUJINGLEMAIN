@@ -414,6 +414,7 @@ h1 {
 
 #storiesDiv .cardDetails {
     background-color: #ffffffaa;
+    border-radius: 30px;
 }
 
 #storiesDiv .cardDetails p {

@@ -535,7 +535,7 @@ h1 {
 }
 
 .form button {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     background: var(--main-color);
     border: none;
@@ -551,11 +551,11 @@ h1 {
     box-shadow: 0 0 60px rgb(180, 7, 7);
 }
 @media (max-width: 767px) {
-    .contact .container .contents {
+    .container .contact  {
         flex-direction: column;
     }
-    .contact .container .contents .form {
-        margin: 0;
+    .container .contact .form {
+        margin: 10px;
     }
 }
 

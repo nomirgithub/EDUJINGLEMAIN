@@ -35,8 +35,9 @@ body {
 
 #eG {
     font-family: fantasy;
-    text-shadow: 0 10px 30px rgb(232, 223, 223);
-    color: rgb(35, 3, 3);
+    box-shadow: 0 0px 30px rgb(232, 223, 223);
+    color: rgb(97, 8, 8);
+    background-color: #bd9faf83;
 }
 #lA {
     font-style: italic;

@@ -228,6 +228,9 @@ h1 {
     font-weight: 900;
     color: white;
     border: none;
+    box-shadow: 0 0 20px rgba(141, 71, 114, 0.847);
+   
+    
 }
 
 @media (max-width: 1106px) {
@@ -241,8 +244,11 @@ h1 {
     }
 #landingDiv .container .centerDiv button:hover{
     cursor: pointer;
-    background-color: rgba(171, 92, 146, 0.559);
+    background-color: rgba(198, 17, 17, 0.79);
     
+    border-radius: 20px;
+    
+    box-shadow: 0 0 60px rgb(180, 7, 7);
 }
 
 #landingDiv .container .centerDiv {
@@ -257,7 +263,7 @@ h1 {
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 @media (max-width: 1106px) {
@@ -298,6 +304,11 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     
+}
+
+#servicesDiv .container .service:hover {
+    box-shadow: 0 0 10px rgba(176, 157, 231, 0.651);
+    border-radius: 30px;
 }
 
 #servicesDiv .container .service {
@@ -359,6 +370,14 @@ h1 {
     margin: 20px;
     border-radius: 20px;
 }
+#storiesDiv .container .content .cards .card:hover{
+    box-shadow: 0 0 20px rgb(246, 246, 248);
+    border-radius: 30px;
+.cardDetails {
+    border-radius: 20px;
+}
+}
+    
 
 #storiesDiv .container .content .cards .card .cardImg {
     padding: 10px;
@@ -436,7 +455,7 @@ h1 {
     content: "";
     width: 100px;
     height: 60%;
-    background-color: #2B124C;
+    background-color: #41124c;
     position: absolute;
     right: 30px;
     top: 20%;
@@ -445,57 +464,6 @@ h1 {
 
 
 /* End storiess*/
- #chess {
-    background:linear-gradient(#031748, rgb(21, 1, 62)) ;
-    height: 150vh;
-    display: grid;
-place-items: center;
-overflow-x: hidden;
- }
+ 
 
- @media (max-width: 700px) {
-    #chess {
-        align-items: center;
-        height: 350vh;}
- }
 
- #wzay {
-    color: white;
-    direction: rtl;
-    align-items: center;
- }
-  #h112 {
-    background-color: #120a48;
-    color: goldenrod;
-    align-items: center;
-    direction: rtl;
-    font-size: 60px;
-    font-weight: 900;
-    
-    text-shadow: 0 10px 10px #080808;
-    letter-spacing: -1px;
-  }
-  .follow-btn {
-    background-color: rgb(10, 4, 37);
-    color: rgb(247, 235, 235);
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    height: 90px;
-
-}
-.follow-btn a {
-    text-decoration: none;
-    color: #a09e1f;
-    font-weight: bold;
-}
-.follow-btn:hover {
-    background-color: rgb(9, 6, 19);
-}
-#imc {
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
-}

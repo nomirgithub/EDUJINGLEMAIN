@@ -15,6 +15,7 @@ html {
     --secondary-color: rgba(212, 126, 145, 0.559);
     height: 1000vh;
     scroll-behavior: smooth;
+    
 }
 
 *{
@@ -471,6 +472,137 @@ h1 {
 
 
 /* End storiess*/
- 
+ /*start Contact */
+#contactDiv {
+    background : linear-gradient( #190019, #2B124C, #522B5B, #854F6C, #DFB6B2);
 
+}
+
+#contactDiv .container {
+    padding: 100px 0;
+    text-align: center;
+    
+}
+.special {
+   color: #e4d9de;
+    box-shadow:0 0 10px #817f8072;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0 0px 10px #757474;
+    letter-spacing: -1px;
+}
+#contactDiv .container .contact {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+#contactDiv .container .contact .details {
+    margin-right: 50px;
+}
+#contactDiv .container .contact .details h3 {
+    font-size: 35px;
+    color: aliceblue;
+}
+
+#contactDiv .container .contact .details p {
+    font-size: 22px;
+    color: #aeaeae;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#contactDiv .container .contact .form input, textarea {
+    background-color: #f3f3f3;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline-color: var(--secondary-color);
+}
+.container .contact .form textarea {
+    resize: none;
+}
+
+.container .contact .form .firstRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contact .form .firstRow input:nth-child(2) {
+    margin-left: 10px;
+}
+
+.form button {
+    width: 100%;
+    padding: 20px;
+    background: var(--main-color);
+    border: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: #601326;
+    border-radius: 20px;
+    
+    box-shadow: 0 0 60px rgb(180, 7, 7);
+}
+@media (max-width: 767px) {
+    .contact .container .contents {
+        flex-direction: column;
+    }
+    .contact .container .contents .form {
+        margin: 0;
+    }
+}
+
+/* End Contact */
+
+/* Start Footer */
+
+.footer {
+    background-color:rgb(43, 4, 4);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container .socialIcons {
+    display: flex;
+}
+
+.footer .container .socialIcons .iconDiv {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .container p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+/* End Footer */
 

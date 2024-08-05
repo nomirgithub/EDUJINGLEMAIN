@@ -25,7 +25,7 @@
 html, body {
     
    margin: 0%;
-   background : linear-gradient(  #193352, #254266, #3f6b9e, #9ec5ce);    
+   background : linear-gradient(  #0d1115, #1b2a3e, #081524, #5f787e);    
     
     
 
@@ -49,27 +49,37 @@ html, body {
 }
 
 
+.canva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
+.canva img {
+    height: 100px;
+    width: 100px;
+    
+}
 
 .specialHeading {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 1000;
-    color: #051558;
-    text-shadow: 0 10px 10px #a9a5ad;
+    color: #f0e9dd;
+    text-shadow: 0 10px 10px #100120;
     letter-spacing: 1px;
     text-align: center;
     font-family: fantasy;
 }
 
-
 @media (max-width:850px) {
     .specialHeading {
-        font-size: 40px;
+        font-size: 20px;
        
     }
+   
 }
+
+
 #pC .container > p {
     font-size:30px ;
     font-weight: 550;
@@ -85,16 +95,26 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    box-shadow: 0 0 10px rgb(221, 217, 217);
+    border-radius: 30px;
    }
 
+   
 
 #pC .container .cards .card {
     width: 130px;
-    
     margin: 20px;
     border-radius: 20px;
     align-items: center;
 }
+
+#pC .container .cards .card:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(3, 3, 46)
+    );
+ 
+}
+
+
 
 #pC .container .cards .card .cardImg {
     
@@ -103,7 +123,7 @@ html, body {
 
 #pC .container .cards .card .cardImg img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 50%;
     box-shadow: 0 0 10px rgb(0, 3, 16);
 }
 
@@ -112,4 +132,26 @@ html, body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
+}
+
+#seven img {
+    height: 150px;
+    width: 150px;
+   
+}
+
+#seven {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size:30px ;
+    font-weight: 550;
+    margin: 40px 0;
+    text-align: center;
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -1.5px;
+}
+#pC .container  .cards:hover{
+    background-color: #040e1a54;
 }

@@ -259,10 +259,10 @@ h1 {
     #header .container img {
         width: 100px;
         height: 100px;
-        border-radius: 50%;
+      
         z-index: 1;
         margin-top: -10px;
-       background-color: rgba(7, 7, 7, 0.169);
+       
     }
     }
 #landingDiv .container .centerDiv button:hover{
@@ -396,7 +396,7 @@ h1 {
 #storiesDiv .container .content .cards .card:hover{
     box-shadow: 0 0 20px rgb(246, 246, 248);
     border-radius: 30px;
-.cardDetails {
+    .cardDetails {
     border-radius: 20px;
 }
 }

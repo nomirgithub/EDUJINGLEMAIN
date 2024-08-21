@@ -56,7 +56,7 @@ html, body {
 .specialHeading {
     font-size: 60px;
     font-weight: 1000;
-    color: #051558;
+    color:rgba(102, 19, 51, 0.966);
     text-shadow: 0 10px 10px #a9a5ad;
     letter-spacing: 1px;
     text-align: center;
@@ -96,6 +96,11 @@ html, body {
     align-items: center;
 }
 
+#pC .container .cards .card:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(3, 3, 46)
+    ); 
+}
+
 #pC .container .cards .card .cardImg {
     
     border-radius: 20px 20px 0 0 ;
@@ -112,4 +117,94 @@ html, body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
+}
+ 
+.Zarina {
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   font-size:30px ;
+   font-weight: 550;
+   margin: 40px 0;
+   text-align: center;
+   color:rgba(146, 48, 85, 0.966);
+   font-family:fantasy;
+   text-shadow:  2px 3px  rgb(58, 39, 36);
+   letter-spacing: -0.px;
+   box-shadow: 0 0 10px 10px rgb(1, 1, 46);
+   border-radius: 70px;
+}
+
+@media (max-width:850px) {
+  .Zarina {
+    font-size: 20px;
+    letter-spacing: .5px;
+    text-shadow:  1px 2.4px  rgb(58, 39, 36);
+  }
+}
+
+.Zarina img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.btn-success{
+    background-color: rgb(5, 44, 54);
+    color: rgb(247, 235, 235);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  
+}
+
+.btn-success a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: rgb(5, 40, 49);
+}
+
+#bU {
+    
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.email-button {
+    background-color: #b67496;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+   
+   
+}
+
+.email-button img {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+   
+}
+
+.email-button a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-weight: bold;
+}
+
+.email-button:hover {
+    background-color: #99536e;
 }

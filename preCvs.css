@@ -25,7 +25,7 @@
 html, body {
     
    margin: 0%;
-   background : linear-gradient(  #020534, #254266, #3f6b9e, #9ec5ce);    
+   background: linear-gradient(rgba(255, 255, 255, 0.427),  rgb(1, 1, 28), rgb(3, 3, 46))
     
     
 
@@ -56,7 +56,7 @@ html, body {
 .specialHeading {
     font-size: 60px;
     font-weight: 1000;
-    color:rgba(255, 255, 255, 0.966);
+    color:rgba(16, 0, 54, 0.966);
     text-shadow:  0 10px 10px #090909;
    
     text-align: center;
@@ -67,7 +67,8 @@ html, body {
 
 @media (max-width:850px) {
     .specialHeading {
-        font-size: 40px;
+        font-size: 30px;
+        padding-right: 20px;
        
     }
 }
@@ -98,7 +99,7 @@ html, body {
 }
 
 #pC .container .cards .card:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(3, 3, 46)
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(8, 8, 70)
     ); 
 }
 
@@ -127,33 +128,42 @@ html, body {
    font-size:30px ;
    font-weight: 550;
    margin: 40px 0;
+    padding-left: auto;
    text-align: center;
-   color:rgba(146, 48, 85, 0.966);
+   color:rgba(255, 255, 255, 0.966);
    font-family:fantasy;
    text-shadow:  2px 3px  rgb(58, 39, 36);
    letter-spacing: -0.px;
-  box-shadow: 0 0 10px 10px ;
+  box-shadow: 0 0 10px 10px rgb(1, 1, 36);
+  background: linear-gradient(rgba(255, 255, 255, 0.427), rgb(3, 3, 46));
+
    border-radius:70px;
 }
 
-@media (max-width:850px) {
-  .Zarina {
-    font-size: 20px;
-    letter-spacing: .5px;
-    text-shadow:  1px 2.4px  rgb(58, 39, 36);
-    box-sizing: border-box;
-  
-  }
-}
+
 
 .Zarina img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
-.Zarina:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(3, 3, 46))
-}
+
+@media (max-width:900px) {
+    .Zarina {
+      font-size: 20px;
+      letter-spacing: .5px;
+      text-shadow:  1px 2.4px  rgb(58, 39, 36);
+      box-sizing: border-box;
+      padding-left: auto;
+      
+    }
+    .Zarina img {
+        height: 150px;
+        width: 150px;
+    }
+      
+  
+  }
 
 .btn-success{
     background-color: rgb(5, 44, 54);
@@ -184,6 +194,10 @@ html, body {
     flex-wrap: wrap;
 }
 
+#yy {
+    margin: 40px 0;
+
+}
 .email-button {
     background-color: #b67496;
     border: none;

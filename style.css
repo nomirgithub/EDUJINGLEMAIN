@@ -506,6 +506,7 @@ h1 {
     font-weight: 900;
     text-shadow: 0 0px 10px #757474;
     letter-spacing: -1px;
+    border-radius: 30px;
 }
 #contactDiv .container .contact {
     display: flex;
@@ -621,4 +622,19 @@ h1 {
 }
 
 /* End Footer */
+#Zai  {
+display: flex;
+justify-content: center;
+align-items: center;
 
+}
+#Zai img {
+    height: 200px;
+    width: 200px;
+}
+@media (max-width:900px) {
+    #Zai img {
+        height: 100px;
+        width: 100px;
+    }
+}

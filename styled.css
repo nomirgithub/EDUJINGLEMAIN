@@ -1,3 +1,123 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+   
+   border: none;
+   height: 100px;
+ 
+}
+
+
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -20px;
+}
+ #header .iconDiv {
+    width: 60px;
+    direction: rtl;
+    
+    
+ }
+
+ #header .menuLine{
+    height: 1.7px;
+    background-color: white;
+    margin-bottom: 5px;
+ }
+
+ @media (max-width: 1106px) {
+    #header .menuLine {
+        background-color: var(--main-color);
+    }
+   
+    }
+
+ #header #centerLine {
+    width: 50%;
+    transition: 0.3s;
+ }
+
+ #header .menuDiv:hover #centerLine {
+    width: 100%;
+ }
+
+ #header .container .menuDiv {
+    position: relative;
+ }
+ 
+ #header .container .menuDiv ul {
+    width: 200px;
+    background-color: rgb(250, 245, 245);
+    list-style: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    position:absolute;
+    box-shadow: 0 0 10px grey;
+    display: none;
+    right: -8px;
+    top: 30px;
+    
+   
+ }
+
+ #header .container .menuDiv ul .divider {
+    background-color: rgb(151, 150, 150);
+    height: 0.5px;
+ }
+
+ #header .container .menuDiv ul li {
+    text-align: center;
+    padding: 10px 35px;
+    color: rgb(57, 7, 7);
+    transition: 0.3s;
+   position: relative;
+   z-index: 1;
+ }
+
+ #header .container .menuDiv ul::before{
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent white transparent;
+    top: -20px;
+    right: 25px;
+
+ }
+
+ #header .container .menuDiv:hover ul {
+    display: block;
+ }
+
+ #header .container .menuDiv ul li:hover {
+    padding-left: 45px;
+}
+
+      
+
+ /* end header */
+
 #divOne {
     background-image: linear-gradient(rgb(10, 10, 90), rgb(2, 5, 26));
     padding: 50px 20px;

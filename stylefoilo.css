@@ -15,6 +15,7 @@ body {
     background: linear-gradient( rgb(94, 10, 54), rgba(23, 21, 21, 0));
     text-align: center;
     border-style: ridge;
+    padding: 20px;
     border-radius: 50px;
     height: 700px;
     text-decoration: wavy;

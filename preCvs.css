@@ -25,7 +25,7 @@
 html, body {
     
    margin: 0%;
-   background: linear-gradient(rgba(255, 255, 255, 0.427), rgb(3, 3, 46));
+   background: linear-gradient(rgb(14, 120, 152), rgb(5, 43, 81), rgb(1, 29, 46));
     
     
 
@@ -33,7 +33,7 @@ html, body {
 
 
 #pC {
-    padding: 100px 0;
+    padding: 50px 0;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -56,7 +56,7 @@ html, body {
 .specialHeading {
     font-size: 60px;
     font-weight: 1000;
-    color:rgba(16, 0, 54, 0.966);
+    color:rgba(243, 241, 250, 0.966);
     text-shadow:  0 10px 10px #090909;
    
     text-align: center;
@@ -99,7 +99,7 @@ html, body {
 }
 
 #pC .container .cards .card:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(8, 8, 70)
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(1, 18, 66)
     ); 
 }
 
@@ -134,17 +134,14 @@ html, body {
    font-family:fantasy;
    text-shadow:  2px 3px  rgb(58, 39, 36);
    letter-spacing: -0.px;
-  box-shadow: 0 0 10px 10px rgb(1, 1, 36);
-  background: linear-gradient(rgba(255, 255, 255, 0.427), rgb(3, 3, 46));
 
-   border-radius:70px;
 }
 
 
 
 .Zarina img {
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
 }
 
 
@@ -158,15 +155,15 @@ html, body {
       
     }
     .Zarina img {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
     }
       
   
   }
 
 .btn-success{
-    background-color: rgb(5, 44, 54);
+    background-color: rgb(7, 81, 100);
     color: rgb(247, 235, 235);
     border: none;
     padding: 10px 20px;

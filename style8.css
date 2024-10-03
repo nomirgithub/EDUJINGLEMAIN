@@ -134,7 +134,7 @@ button:hover {
 @media (max-width: 620px) {
 
     body{
-        background: linear-gradient(135deg, #ffddac, rgb(0 0 0) 40%, #002d4d 100%);
+        background: linear-gradient(135deg, #1186b4, rgba(2, 5, 26, 0.909) 40%, #0b4b82 100%);
         min-height: 100vh;
         display: flex;
         justify-content: center;

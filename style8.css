@@ -171,7 +171,7 @@ button:hover {
     
     
     #baccor {
-        background: linear-gradient(rgba(236, 240, 241, 0), rgba(139, 173, 199, 0.61), rgba(170, 203, 228, 0.386), rgb(164, 165, 166) ,rgb(12, 27, 27), rgb(31, 118, 124));
+        background: linear-gradient(rgba(236, 240, 241, 0), rgba(139, 173, 199, 0.61), rgba(170, 203, 228, 0.386), rgb(164, 165, 166) ,rgb(7, 52, 58), rgb(7, 47, 62));
         border-bottom-left-radius: 500px;
         border-bottom-right-radius: 500px;
         margin-left: 50px;
@@ -188,7 +188,7 @@ button:hover {
         display: block;
         height: 100px;
         width: 100px;
-        margin-left: 20px;
+        margin-left: -160px;
     }
     #Cr {
         display: block;

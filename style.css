@@ -415,15 +415,25 @@ h3 {
     width: 50%;
     border-radius: 20px;
 }
-
-
-#storiesDiv .container .content .cards .card .cardImg1 img {
-    width: 100%;
+#storiesDiv .container .content .cards .card1 {
+    width: 230px;
+    margin: 20px;
     border-radius: 20px;
 }
 
-#storiesDiv .container .content .cards .card .cardImg1:hover {
-    box-shadow: 0px 0px 20px #381200;
+#storiesDiv .container .content .cards .card1 .cardImg1 img {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+#storiesDiv .container .content .cardImg1:hover {
+    box-shadow: 0px 0px 20px #565452;
+    border-radius: 50px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    background-color: #181108;
+
 } 
 
 #storiesDiv  .container .content {

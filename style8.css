@@ -158,7 +158,8 @@ button:hover {
         color: white;
         border: none;
         box-shadow: 0 0 20px rgba(141, 71, 114, 0.847);
-        margin-left: 80px;
+        margin-left:50px;
+        margin-right: 80px;
     }
     
     button:hover {
@@ -188,7 +189,7 @@ button:hover {
         display: block;
         height: 100px;
         width: 100px;
-        margin-left: -160px;
+        margin-left: -70px;
     }
     #Cr {
         display: block;
@@ -242,7 +243,6 @@ button:hover {
         border-radius: 0px;
         font-size: 22px;
         box-shadow: 2px 5px 10px rgba(255, 253, 253, 0.523);
-        background: linear-gradient(hsla(301, 32%, 36%, 0), rgba(67, 2, 45, 0.041), rgba(0, 0, 0, 0.388)) ;
         height: 15px;
     }
     

@@ -432,7 +432,7 @@ h3 {
     border-radius: 50px;
     border-top-left-radius: 500px;
     border-top-right-radius: 500px;
-    background-color: #181108;
+    background: linear-gradient(#0f021f7a, rgba(11, 1, 55, 0.493)) ;
 
 } 
 

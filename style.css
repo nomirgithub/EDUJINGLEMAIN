@@ -428,7 +428,7 @@ h3 {
 }
 
 #storiesDiv .container .content .cardImg1:hover {
-    box-shadow: 0px 0px 20px #565452;
+    box-shadow: 0px 0px 20px #ffd500;
     border-radius: 50px;
     border-top-left-radius: 500px;
     border-top-right-radius: 500px;
@@ -447,7 +447,7 @@ h3 {
 }
 
 #storiesDiv .cardDetails {
-    background: linear-gradient(rgba(255, 255, 255, 0.422), rgba(99, 96, 96, 0.386), rgba(255, 255, 255, 0.5));
+    background: linear-gradient(rgba(50, 27, 27, 0.422), rgba(11, 11, 11, 0.386), rgba(8, 6, 6, 0.5));
     border-radius: 10px;
     color: #f2edf2;
 }

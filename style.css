@@ -416,7 +416,7 @@ h3 {
     border-radius: 20px;
 }
 #storiesDiv .container .content .cards .card1 {
-    width: 230px;
+    width: 200px;
     margin: 20px;
     border-radius: 20px;
 }
@@ -468,11 +468,11 @@ h3 {
     display: flex;
     align-items: center;
     position: relative;
-    height: 70vh;
+    height: 80vh;
 }
 
 #storiesDiv .imgDiv img {
-    width: 320px;
+    width: 300px;
     position: relative;
     
 }
